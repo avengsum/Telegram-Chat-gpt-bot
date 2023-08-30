@@ -2,7 +2,7 @@ const Bot = require('node-telegram-bot-api')
 require('dotenv').config()
 const generateResponse = require('./generate')
 
-const token = process.env.KEY
+const token = "'YOUR_TELEGRAM_BOT_TOKEN'"
 
 
 const bot = new Bot(token,{polling:true});
