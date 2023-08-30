@@ -1,6 +1,6 @@
 const axios = require('axios')
 
-const OPENAI_API_KEY = "paste your open ai key";
+const OPENAI_API_KEY = 'YOUR_OPENAI_API_KEY';
 
 async function generateResponse(message) {
   const response = await axios.post(
